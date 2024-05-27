@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коррекция тела</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #FCD9E4;">
+
+<!-- Кнопка Услуги -->
+<div id="servicesContainer" class="services-container">
+    <ul id="servicesList" class="services-list">
+        <li><a href="depilation.html">ДЕПИЛЯЦИЯ</a> </li>
+        <li><a href="cosmetology.html">КОСМЕТОЛОГИЯ</a> </li>
+        <li><a href="manicure.html">МАНИКЮР/ПЕДИКЮР</a> </li>
+        <li><a href="eyebrows.html">БРОВИ/РЕСНИЦЫ</a>   </li>
+        <li><a href="make-up.html">ВИЗАЖ</a>            </li>
+        <li><a href="stylist.html">ПАРИКМАХЕР</a>       </li>
+        <li><a href="massage.html">МАССАЖ</a>           </li>
+        <li><a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА</a> </li>
+        <li><a href="tan.html">ЗАГАР</a>                 </li>
+        <li><a href="master.html">МАСТЕР НА ДОМ</a>         </li>
+    </ul>
+</div>
+
+<!-- Верхняя шапка -->
+<header>
+<nav>
+    <a href="blog.html">Блог</a>
+    <a href="#" id="servicesButton">Услуги</a>
+            <a href="about.html">О нас</a>
+            <a href="price.html">Цены</a>
+            <a href="promotion.html">Акции</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="info-bar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png"></a>
+            <p class="logo-text">Выбор уверенных в себе</p>
+        </div>
+        <div class="contact-info">
+            <p class="infobartext">5 салонов в Хабаровске без<br> перерывов и выходных<br> с 9:00 до 21:00</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/"><img src="images\youtube.png" alt="YouTube"></a>
+                <a href="https://wa.me/79241129598"><img src="images\whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.instagram.com/iuliia_mua?igsh=MXdpNXZmcHFmMjFsZg=="><img src="images\instagram.png"></a>
+                <a href="https://t.me/iuliiaku"><img src="images/telegram.png"></a>
+            </div>
+            <p class="infobartext">+7(421)245-54-45</p>
+            <img src="images\location.png"><p class="infobartext"> Хабаровск, ул. Серышева 47.</p>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <div class="navigationpink">
+    <div class="navpink">
+        <a href="depilation.html">ДЕПИЛЯЦИЯ </a> 
+        <a href="cosmetology.html">КОСМЕТОЛОГИЯ </a> 
+        <a href="manicure.html">МАНИКЮР/ПЕДИКЮР </a>
+        <a href="eyebrows.html">БРОВИ/РЕСНИЦЫ </a>
+        <a href="make-up.html">ВИЗАЖ </a>
+        <a href="stylist.html">ПАРИКМАХЕР </a>
+        <a href="massage.html">МАССАЖ </a>
+        <a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА </a>
+        <a href="tan.html">ЗАГАР </a>
+        <a href="master.html">МАСТЕР НА ДОМ</a>
+    </div>
+    </div>
+
+
+<!-- Хлебные крошки -->
+<div class="MainNavigation">
+    <!-- Контейнер для хлебных крошек -->
+    <div class="breadcrumb" id="breadcrumb">
+      <!-- Здесь будет отображаться содержимое хлебных крошек -->
+  </div>
+</div>    
+
+<!-- Основной контент страницы -->
+
+<div class="container">
+    <!-- Боковая навигация с вкладками -->
+    <div class="side-navigation">
+        <ul>
+                <li><a href="#" class="active" data-tab="bodytips">Услуги коррекции фигуры</a></li>            
+                <li><a href="#" data-tab="bodycare">Уход за кожей тела</a></li>
+                <li><a href="#" data-tab="diet">Здоровый образ жизни и диета</a></li>
+            </ul>
+        </ul>
+    </div>
+ 
+<!-- Контент страницы: Услуги коррекции фигуры -->  
+<div class="content" id="bodytips">
+    <div class="skins-description">
+        <h2>Коррекция фигуры в Хабаровске</h2>
+            <p>Хотите достичь идеальной формы тела? Попробуйте наши процедуры коррекции фигуры.<br>
+                Наши специалисты помогут вам сбросить лишний вес, улучшить тонус кожи и сделать вашу<br> фигуру 
+                более стройной и привлекательной. 
+                Запишитесь на процедуру прямо сейчас<br> и начните путь к идеальной фигуре!</p>
+            <button class="book-button" onclick="redirectToForm()">Записаться на процедуру</button>
+            <img src="images\bodycor.jpg" class="body-image" alt="Transparent Image">
+        </div>
+        <p style="font-size: 30px; font-weight: bold;">Прайс-лист</p>
+            
+    <div class="pricelist">
+        <div>
+            <p style="font-weight: bold;">Услуга</p>
+        </div>
+        <div>
+            <p style="font-weight: bold;">Цена (стандарт /топ мастер)</p>
+        </div>
+    </div>
+    <!-- Контейнер для списка услуг и цен -->
+    <img src="images\price16.jpg" alt="Цены" style="width: 100%; height: auto;">
+</div>
+
+
+<!-- Контент страницы: Уход за кожей тела -->  
+<div class="content" id="bodycare" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Уход за кожей тела</p>
+
+    <p style="font-size: 20px;">Регулярный уход за кожей тела является основой для поддержания её здоровья и красоты. Ежедневное увлажнение необходимо для предотвращения сухости и шелушения. Используйте увлажняющие кремы и лосьоны после душа, когда кожа ещё немного влажная, чтобы запереть влагу. Важно выбирать средства, которые подходят именно вашему типу кожи и не содержат агрессивных химических компонентов.</p>
+    
+    <p style="font-size: 20px;">Один из ключевых аспектов ухода за кожей тела – это регулярное очищение. Ежедневный душ или ванна помогают удалить загрязнения, пот и мертвые клетки кожи. При этом не забывайте использовать мягкие очищающие средства, которые не пересушивают кожу. Раз в неделю рекомендуется проводить скрабирование, чтобы улучшить кровообращение и обновить кожный покров, придавая ему свежий и сияющий вид.</p>
+    
+    <p style="font-size: 20px;">Не менее важным является защита кожи от внешних факторов. Летом используйте солнцезащитные кремы с высоким SPF, чтобы предотвратить повреждение кожи ультрафиолетовыми лучами. Зимой старайтесь носить одежду из натуральных тканей, которая позволяет коже дышать и защищает её от холода и ветра. Обеспечьте коже регулярный уход и защиту, чтобы она всегда оставалась здоровой, мягкой и ухоженной.</p>
+    
+</div>
+
+
+<!-- Контент страницы: Здоровый образ жизни и диета -->  
+<div class="content" id="diet" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Здоровый образ жизни и диета</p>
+
+<p style="font-size: 20px;">Ведение здорового образа жизни и правильная диета играют ключевую роль в поддержании общего здоровья и благополучия. Регулярная физическая активность способствует улучшению сердечно-сосудистой системы, укреплению мышц и костей, а также помогает поддерживать здоровый вес. Важно выбирать виды физической активности, которые приносят удовольствие и легко встраиваются в ваш повседневный график, будь то ходьба, бег, йога или занятия в тренажерном зале.</p>
+
+<p style="font-size: 20px;">Сбалансированное питание является неотъемлемой частью здорового образа жизни. Диета, богатая овощами, фруктами, цельными злаками и постным белком, обеспечивает организм необходимыми питательными веществами и энергией. Ограничение потребления сахара, соли и насыщенных жиров помогает предотвратить различные заболевания и поддерживать оптимальный уровень энергии. Не забывайте пить достаточное количество воды в течение дня для поддержания гидратации и здоровья кожи.</p>
+
+<p style="font-size: 20px;">Важно также уделять внимание эмоциональному и психическому благополучию. Регулярный отдых, медитация, практика осознанности и управление стрессом помогают поддерживать баланс и гармонию в жизни. Здоровый образ жизни – это комплексный подход, включающий физическое, эмоциональное и психическое здоровье. Следуя этим принципам, вы сможете улучшить качество своей жизни и почувствовать себя лучше каждый день.</p>
+
+<p style="font-size: 20px;">Вы можете получить больше информации, открыв наш блог!</p>
+<button class="book-button" onclick="location.href='blog.html'">Блог</button>
+    
+</div>
+
+
+
+    
+    </div>
+
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

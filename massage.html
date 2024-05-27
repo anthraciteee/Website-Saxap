@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Массаж</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #FCD9E4;">
+
+<!-- Кнопка Услуги -->
+<div id="servicesContainer" class="services-container">
+    <ul id="servicesList" class="services-list">
+        <li><a href="depilation.html">ДЕПИЛЯЦИЯ</a> </li>
+        <li><a href="cosmetology.html">КОСМЕТОЛОГИЯ</a> </li>
+        <li><a href="manicure.html">МАНИКЮР/ПЕДИКЮР</a> </li>
+        <li><a href="eyebrows.html">БРОВИ/РЕСНИЦЫ</a>   </li>
+        <li><a href="make-up.html">ВИЗАЖ</a>            </li>
+        <li><a href="stylist.html">ПАРИКМАХЕР</a>       </li>
+        <li><a href="massage.html">МАССАЖ</a>           </li>
+        <li><a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА</a> </li>
+        <li><a href="tan.html">ЗАГАР</a>                 </li>
+        <li><a href="master.html">МАСТЕР НА ДОМ</a>         </li>
+    </ul>
+</div>
+
+<!-- Верхняя шапка -->
+<header>
+<nav>
+    <a href="blog.html">Блог</a>
+    <a href="#" id="servicesButton">Услуги</a>
+            <a href="about.html">О нас</a>
+            <a href="price.html">Цены</a>
+            <a href="promotion.html">Акции</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="info-bar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png"></a>
+            <p class="logo-text">Выбор уверенных в себе</p>
+        </div>
+        <div class="contact-info">
+            <p class="infobartext">5 салонов в Хабаровске без<br> перерывов и выходных<br> с 9:00 до 21:00</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/"><img src="images\youtube.png" alt="YouTube"></a>
+                <a href="https://wa.me/79241129598"><img src="images\whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.instagram.com/iuliia_mua?igsh=MXdpNXZmcHFmMjFsZg=="><img src="images\instagram.png"></a>
+                <a href="https://t.me/iuliiaku"><img src="images/telegram.png"></a>
+            </div>
+            <p class="infobartext">+7(421)245-54-45</p>
+            <img src="images\location.png"><p class="infobartext"> Хабаровск, ул. Серышева 47.</p>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <div class="navigationpink">
+    <div class="navpink">
+        <a href="depilation.html">ДЕПИЛЯЦИЯ </a> 
+        <a href="cosmetology.html">КОСМЕТОЛОГИЯ </a> 
+        <a href="manicure.html">МАНИКЮР/ПЕДИКЮР </a>
+        <a href="eyebrows.html">БРОВИ/РЕСНИЦЫ </a>
+        <a href="make-up.html">ВИЗАЖ </a>
+        <a href="stylist.html">ПАРИКМАХЕР </a>
+        <a href="massage.html">МАССАЖ </a>
+        <a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА </a>
+        <a href="tan.html">ЗАГАР </a>
+        <a href="master.html">МАСТЕР НА ДОМ</a>
+    </div>
+    </div>
+
+<!-- Хлебные крошки -->
+<div class="MainNavigation">
+    <!-- Контейнер для хлебных крошек -->
+    <div class="breadcrumb" id="breadcrumb">
+      <!-- Здесь будет отображаться содержимое хлебных крошек -->
+  </div>
+</div>
+
+
+
+
+<!-- Основной контент страницы -->
+
+<div class="container">
+    <!-- Боковая навигация с вкладками -->
+    <div class="side-navigation">
+        <ul>
+                <li><a href="#" class="active" data-tab="massagetips">Виды массажа</a></li>            
+                <li><a href="#" data-tab="advantagesmassage">Преимущества массажа</a></li>
+                <li><a href="#" data-tab="massagecare">Советы по самомассажу и уходу за телом</a></li>
+            </ul>
+        </ul>
+    </div>
+
+    
+<!-- Контент страницы: Виды массажа -->  
+<div class="content" id="massagetips">
+    <div class="skins-description">
+        <h2>Массаж в Хабаровске</h2>
+            <p>Отдайте свое тело заботе наших профессиональных массажистов в Хабаровске!<br> 
+                Насладитесь расслабляющим и оздоровительным массажем, 
+                который поможет вам<br> избавиться от стресса и напряжения. 
+                Запишитесь на сеанс массажа прямо сейчас!</p>
+            <button class="book-button" onclick="redirectToForm()">Записаться на Массаж</button>
+            <img src="images\massage.jpg" class="massage-image" alt="Transparent Image">
+        </div>
+        <p style="font-size: 30px; font-weight: bold;">Прайс-лист</p>
+            
+    <div class="pricelist">
+        <div>
+            <p style="font-weight: bold;">Услуга</p>
+        </div>
+        <div>
+            <p style="font-weight: bold;">Цена (стандарт /топ мастер)</p>
+        </div>
+    </div>
+    <!-- Контейнер для списка услуг и цен -->
+    <img src="images\price15.jpg" alt="Цены" style="width: 100%; height: auto;">
+</div>
+
+
+<!-- Контент страницы: Преимущества массажа -->  
+<div class="content" id="advantagesmassage" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Преимущества массажа</p>
+
+    <p style="font-size: 20px; font-weight: bold;">Снятие напряжения и стресса</p>
+    <p style="font-size: 15px;">Массаж помогает расслабить мышцы и уменьшить уровень стресса и напряжения в теле. Это способствует улучшению настроения и общему ощущению благополучия.</p>
+    
+    <p style="font-size: 20px; font-weight: bold;">Улучшение кровообращения</p>
+    <p style="font-size: 15px;">Массаж способствует улучшению кровообращения в организме, что увеличивает поступление кислорода и питательных веществ к клеткам и тканям, ускоряя процессы регенерации и восстановления.</p>
+    
+    <p style="font-size: 20px; font-weight: bold;">Повышение гибкости и подвижности</p>
+    <p style="font-size: 15px;">Регулярные сеансы массажа помогают размягчить мышцы, улучшить их эластичность и подвижность. Это особенно полезно для людей, страдающих от напряжения в мышцах и ограничений в подвижности.</p>
+    
+    <p style="font-size: 20px; font-weight: bold;">Улучшение сна и психического здоровья</p>
+    <p style="font-size: 15px;">Массаж способствует расслаблению и улучшению качества сна. Он также может помочь снизить уровень тревожности и депрессии, улучшить настроение и общее психическое состояние.</p>    
+</div>
+
+
+<!-- Контент страницы: Советы по самомассажу и уходу за телом -->  
+<div class="content" id="massagecare" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Советы по самомассажу и уходу за телом</p>
+
+<p style="font-size: 20px;">1. Пользуйтесь массажным маслом или кремом для лучшего скольжения при самомассаже. Это поможет избежать раздражения кожи и обеспечит более эффективное воздействие.</p>
+
+<p style="font-size: 20px;">2. Начинайте самомассаж с легких и мягких движений, постепенно увеличивая давление. Это поможет разогреть мышцы и подготовить их к более интенсивному воздействию.</p>
+
+<p style="font-size: 20px;">3. Обратите особое внимание на области тела, где чувствуете напряжение или дискомфорт. Массируйте эти участки более интенсивно и дольше, чтобы расслабить и размять мышцы.</p>
+
+<p style="font-size: 20px;">4. Пользуйтесь различными техниками массажа: круговыми движениями, растираниями, потряхиваниями. Это поможет достичь более полного расслабления и улучшения кровообращения.</p>
+
+<p style="font-size: 20px;">5. Не забывайте о массаже стоп и стопы. Массаж этих областей способствует улучшению кровообращения, снятию усталости и напряжения в ногах.</p>
+
+<p style="font-size: 20px;">6. После самомассажа уделите время для отдыха и релаксации. Выпейте стакан теплой воды, чтобы увлажнить организм, и насладитесь ощущением расслабления.</p>
+
+<p style="font-size: 20px;">7. Практикуйте самомассаж регулярно, чтобы поддерживать тонус мышц, улучшать кровообращение и общее состояние организма.</p>
+
+<p style="font-size: 20px;">8. При возникновении болей или дискомфорта во время самомассажа, прекратите процедуру и обратитесь за консультацией к специалисту.</p>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

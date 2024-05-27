@@ -1,0 +1,811 @@
+
+body {
+    overflow-x: hidden;
+}
+
+/* Стили для шапки */
+header {
+    font-size: 20px;
+    margin-right: 100px;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    position: fixed; /* Зафиксировать шапку */
+    top: 0; /* Расположить шапку вверху экрана */
+    width: 99%; /* Ширина шапки должна быть 100% экрана */
+}
+
+/* Стили для навигационного меню */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Наследуем цвет текста */
+}
+
+a:hover {
+    color: inherit; /* Наследуем цвет текста при наведении */
+}
+
+
+/* Стили для навигации*/
+.navigationpink {
+    font-size: 18px;
+    background-color: #fa76a0;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/* Стили для навигационного меню */
+.navpink {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navpink a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.navpink a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Вторая шапка */
+.info-bar {
+    background-color: #FCD9E4; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Равномерное распределение элементов */
+    align-items: right;
+    width: 100%; /* Занимает всю доступную ширину страницы */
+}
+
+.logo {
+    width: 100px; /* Увеличенная ширина логотипа */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    width: 100px; /* Увеличенная ширина логотипа */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: -380px; /* Отступ между изображением и текстом */
+}
+
+.logo-text {
+    color: #72555F; /* Цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    margin-top: 200px; /* Отступ сверху */
+    white-space: nowrap;
+}
+
+.contact-info {
+    color: #72555F;
+    display: flex;
+    align-items: center;
+    font-size: 16px; /* Увеличение размера текста */
+    width: 70%; /* Ширина контактной информации */
+}
+
+.social-icons img {
+    width: 50px;
+    margin-right: 30px;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.search-button img {
+    width: 45px;
+}
+
+.contact-info p {
+    margin-right: 55px; /* Отступ между элементами в контактной информации */
+}
+
+.infobartext {
+    font-size: 24px; /* Увеличенный размер текста о салонах */
+}
+
+/* Стили для большого розового прямоугольника */
+.pink-rectangle {
+    background-color: #fa76a0;
+    padding: 25px;
+    text-align: left; /* Центрирование текста */
+    width: 100%;
+    height: 600px;
+    margin-left: -10px;
+}
+
+.small-pink-rectangle {
+    height: 40px; /* Или другое нужное значение высоты */
+}
+
+/* Стили для текстовых надписей */
+.discount-text {
+    font-size: 72px; /* Очень жирный шрифт */
+    color: #ffffff; /* Цвет текста */
+    display: inline-block;
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.monthly-offer-text {
+    font-size: 24px; /* Немного меньший шрифт */
+    color: #472f37; /* Цвет текста */
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+/* Стили для текста "-15%" */
+.pr-15 {
+    font-size: 200px; /* Размер шрифта */
+    color: white;
+    font-weight: bold; /* Жирное начертание */
+    text-align: center; /* Выравнивание по центру */
+    margin-top: -20px; /* Отступ сверху для выравнивания по вертикали */
+    margin-left: 355px;
+    display: inline-block; /* Делаем элемент блочным, но строчным по горизонтали */
+}
+
+/* Стили для кнопки "Узнать подробности" */
+.details-button {
+    background-color: #ffffffb0; /* Цвет фона кнопки */
+    color: #000000; /* Цвет текста */
+    font-size: 24px; /* Размер шрифта */
+    border: none; /* Убираем границу кнопки */
+    padding: 15px 40px; /* Внутренние отступы кнопки */
+    border-radius: 10px; /* Скругление углов */
+    margin: auto; /* Отступы сверху и снизу, автоматический отступ по горизонтали */
+    display: block; /* Делаем кнопку блочным элементом */
+    cursor: pointer; /* Указатель при наведении */
+    margin-top: 50px;
+}
+
+/* Стили для кнопки "Онлайн запись" */
+.details-buttononline {
+    background-color: #df22b6b0; /* Цвет фона кнопки */
+    color: #ffffff; /* Цвет текста */
+    font-size: 48px; /* Размер шрифта */
+    border: none; /* Убираем границу кнопки */
+    padding: 15px 250px; /* Внутренние отступы кнопки */
+    border-radius: 10px; /* Скругление углов */
+    margin: auto; /* Отступы сверху и снизу, автоматический отступ по горизонтали */
+    display: block; /* Делаем кнопку блочным элементом */
+    cursor: pointer; /* Указатель при наведении */
+    margin-top: 30px;
+}
+
+/* Стили для картинки девушки */
+.top-right-image {
+    position: absolute;
+    top: 319px; /* Отступ сверху */
+    right: -12px; /* Отступ справа */
+    width: 400px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Стили для картинки депиляция*/
+.leg-image {
+    position: absolute;
+    top: 449px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 600px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+/* Стили для картинки визаж*/
+.wing-image {
+    position: absolute;
+    top: 390px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 400px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Стили для картинки косметология*/
+.cosm-image {
+    position: absolute;
+    top: 405px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 300px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Стили для картинки маникюр*/
+.nail-image {
+    position: absolute;
+    top: 395px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 300px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+/* Стили для картинки брови и ресницы*/
+.eyebrow-image {
+    position: absolute;
+    top: 395px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 427px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+
+/* Стили для картинки парикмахер*/
+.hair-image {
+    position: absolute;
+    top: 395px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 480px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    transform: rotateY(180deg); /* Поворот изображения на 180 градусов */
+}
+
+
+/* Стили для картинки массаж*/
+.massage-image {
+    position: absolute;
+    top: 397px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 570px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Стили для картинки коррекция тела*/
+.body-image {
+    position: absolute;
+    top: 396px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 485px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Стили для картинки загар*/
+.tan-image {
+    position: absolute;
+    top: 395px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 430px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+/* Стили для картинки мастер на дом*/
+.master-image {
+    position: absolute;
+    top: 395px; /* Отступ сверху */
+    right: 89px; /* Отступ справа */
+    width: 400px; /* Ширина изображения (замените на нужное значение) */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+
+
+.navigation {
+    position: absolute;
+    font-size:18px;
+    color: #ffffff; /* Цвет текста */
+    top: 270px;
+    right: 390px;
+    padding: 10px; /* Внутренние отступы */
+    border: 3px solid white; /* Рамка вокруг навигационного меню */
+    border-radius: 10px; /* Скругление углов рамки */
+}
+
+.navigation a {
+    color: #ffffff; /* Белый цвет текста ссылок */
+    text-decoration: none; /* Убираем стандартное подчеркивание ссылок */
+    font-weight: bold; /* Жирный шрифт для ссылок */
+    cursor: pointer; /* Изменяем курсор при наведении */
+}
+
+.navigation a:hover {
+    text-decoration: underline; /* Подчеркиваем текст при наведении */
+}
+
+/* Стили для контейнера услуг */
+.services-container {
+    display: none; /* По умолчанию скрыт */
+    position: absolute;
+    top: -100px; /* Отступ сверху от шапки */
+    right: auto; /* Отступ справа от края */
+    left: 250px;
+    background-color: black; /* Цвет фона рамки */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 5px; /* Скругление углов */
+    animation: slideDown 0.5s forwards; /* Анимация плавного появления */
+    z-index: 999;
+}
+
+/* Анимация плавного появления сверху вниз */
+@keyframes slideDown {
+    from {
+        top: -102px; /* Начальное положение за пределами экрана сверху */
+    }
+    to {
+        top: 30px; /* Конечное положение (сверху от шапки) */
+    }
+}
+
+
+/* Стили для элементов списка услуг */
+.services-list {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+.services-list li {
+    color: #ffffff; /* Белый цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    margin: 10px 0; /* Внешние отступы */
+}
+
+
+
+
+/* Стили для верхней шапки с навигационным путем */
+.MainNavigation {
+    margin-top: 50px; /* Отступ сверху 50px */
+    color: #72555F; /* Цвет текста */
+}
+
+/* Стили для ссылок в верхней шапке */
+.MainNavigation a {
+    color: inherit; /* Наследуем цвет от родительского элемента (без изменения) */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    cursor: default; /* Курсор по умолчанию (стрелка) */
+}
+
+
+
+/* Стили для основного контейнера страницы */
+.container {
+    display: flex; /* Используем flexbox для распределения элементов */
+    justify-content: space-between; /* Размещаем элементы по краям контейнера */
+    align-items: flex-start; /* Выравниваем элементы по верхнему краю */
+}
+
+/* Новый стиль для боковой навигации с изображениями в два ряда */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-grid li {
+    width: calc(25% - 10px);
+    margin-bottom: 10px;
+}
+
+.image-grid li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.image-grid li img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Стили для боковой навигации */
+.side-navigation {
+    width: 200px; /* Ширина боковой навигации */
+    background-color: #FCD9E4;;
+    padding: 20px;
+}
+
+.side-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-navigation ul li {
+    margin-bottom: 10px;
+}
+
+.side-navigation ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.side-navigation a.active {
+    font-weight: bold;
+}
+
+
+/* Стили для контента страницы */
+.contentmakeup {
+    flex: 1; /* Растягиваем контент на всю доступную ширину */
+    padding: 20px;
+}
+
+/* Стили для заголовка контента */
+.contentmakeup h1 {
+    color: #72555F;
+}
+
+/* Стили для текста контента */
+.contentmakeup p {
+    font-size:18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* Стили для контента страницы */
+.content {
+    flex: 1; /* Растягиваем контент на всю доступную ширину */
+    padding: 20px;
+}
+
+/* Стили для заголовка контента */
+.content h1 {
+    color: #72555F;
+}
+
+/* Стили для текста контента */
+.content p {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Стили для модального окна УЗНАТЬ ПОДРОБНОСТИ */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #FCD9E4; /* Розовый цвет фона */
+    margin: 15% auto;
+    padding: 40px;
+    border: 1px solid #000000;
+    width: 20%; /* Ширина всплывающего окна */
+    height: 200px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    color: black; /* Цвет текста */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Стили для кнопки "Онлайн запись" */
+.online-booking-button {
+    background-color: #FF7EB9; /* Розовый цвет */
+    color: white; /* Белый текст */
+    border: none;
+    border-radius: 20px; /* Скругление углов */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Стили для модального окна с картой */
+.map-modal {
+    position: fixed;
+    top: 50px; /* Расположение модального окна от верхней части страницы */
+    left: 50%; /* Расположение модального окна по центру горизонтально */
+    transform: translateX(-50%); /* Центрирование модального окна */
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Стили для блока с описанием восковой депиляции */
+.skins-description {
+    background-color: #f89fc7; /* Цвет розового фона */
+    padding: 20px; /* Поля вокруг содержимого */
+    width: 90%; /* Ширина блока */
+    height:280px;
+    margin: 0 auto; /* Центрирование блока по горизонтали */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень блока */
+}
+
+/* Стили для заголовка в блоке с описанием */
+.skins-description h2 {
+    color: #000; /* Цвет текста заголовка */
+    font-size: 24px;
+    font-weight: bold; /* Жирный шрифт */
+}
+
+/* Стили для текста в блоке с описанием */
+.skins-description p {
+    font-size: 24px;
+    color: #000; /* Цвет обычного текста */
+}
+
+
+
+/* Стили для блока с описанием восковой депиляции */
+.waxing-description {
+    background-color: #f89fc7; /* Цвет розового фона */
+    padding: 20px; /* Поля вокруг содержимого */
+    width: 90%; /* Ширина блока */
+    height:240px;
+    margin: 0 auto; /* Центрирование блока по горизонтали */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень блока */
+}
+
+/* Стили для заголовка в блоке с описанием */
+.waxing-description h2 {
+    color: #000; /* Цвет текста заголовка */
+    font-size: 24px;
+    font-weight: bold; /* Жирный шрифт */
+}
+
+/* Стили для текста в блоке с описанием */
+.waxing-description p {
+    font-size: 24px;
+    color: #000; /* Цвет обычного текста */
+}
+
+/* Стили для кнопки записи */
+.book-button {
+    background-color: #FFF; /* Цвет фона кнопки */
+    font-size: 24px;
+    color: #000; /* Цвет текста кнопки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    border: none; /* Убираем границу кнопки */
+    border-radius: 20px; /* Закругляем углы кнопки */
+    cursor: pointer; /* Изменение курсора при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
+}
+
+/* Стили для кнопки записи при наведении */
+.book-button:hover {
+    background-color: #DDD; /* Цвет фона кнопки при наведении */
+}
+
+
+/* Стили для блока с прайс-листом */
+.pricelist {
+    background-color: #f89fc7;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Используем flexbox для распределения элементов */
+    justify-content: space-between; /* Распределение элементов по краям блока */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+
+/* Стили для заголовка в блоке с прайс-листом */
+.pricelist h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Стили для текста в блоке с прайс-листом */
+.pricelist p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+/* CSS для priceRow */
+.priceRow {
+    background-color: #f89fc7; /* Цвет фона шапки таблицы */
+    display: flex; /* Используем flexbox для распределения элементов */
+    justify-content: space-between; /* Распределение элементов по ширине контейнера */
+    padding: 10px; /* Отступы вокруг элементов */
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+
+.priceRow p {
+    margin: 0; /* Убираем отступы у параграфов внутри priceRow */
+    font-weight: bold; /* Жирный шрифт для названий столбцов */
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: bold; /* Жирный шрифт только для первой ячейки первой строки */
+}
+
+
+/* CSS для таблицы и ячеек */
+#price-table {
+    width: 100%; /* Чтобы таблица занимала всю доступную ширину */
+}
+
+.priceRowContent td {
+    padding: 8px; /* Отступы внутри ячеек */
+    font-size: 25px;
+}
+
+.priceRowContent td:first-child {
+    text-align: left; /* Выравнивание текста в первой ячейке (Услуга) по левому краю */
+}
+
+.priceRowContent td:nth-child(2) {
+    text-align: right; /* Выравнивание текста во второй ячейке (Цена) по правому краю */
+}
+
+
+
+
+
+.team-masters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member {
+    margin: 10px;
+    text-align: center;
+}
+
+
+/* Стили для контейнера отзывов */
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Стили для каждого отзыва */
+.review {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+/* Стили для изображения отзыва */
+.review-image {
+    width: 100px;
+    border-radius: 50%; /* чтобы был круглый края изображения */
+}
+
+/* Стили для текста отзыва */
+.review-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Стиль для блога */
+.blog-post {
+    border: 2px solid #470b27; /* розовая рамка */
+    padding: 20px; /* отступ внутри рамки */
+    margin-bottom: 20px; /* отступ между постами */
+    background-color: transparent; /* прозрачный фон */
+}
+
+.blog-post h2 {
+    color: #472f37; /* цвет текста заголовка */
+}
+
+.blog-post p {
+    color: #472f37; /* цвет текста содержания */
+}
+
+/* Стиль для кнопки "Читать далее" */
+.read-more-link {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #cebbeb; /* красная рамка */
+    border-radius: 5px; /* скругление углов */
+    color: black; /* белый цвет текста */
+    background-color: #d9cbe5; /* красный цвет фона */
+    text-decoration: none; /* убираем подчеркивание */
+}
+
+.read-more-link:hover {
+    background-color: #cebbeb; /* изменяем цвет фона при наведении */
+    border-color: #d9cbe5; /* изменяем цвет рамки при наведении */
+}
+
+
+/* Основные стили для галереи */
+.gallery {
+    padding: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 15px; /* Скругляем углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Размеры изображений */
+.gallery-item.small {
+    grid-row: span 1;
+}
+
+.gallery-item.medium {
+    grid-row: span 2;
+}
+
+.gallery-item.large {
+    grid-row: span 3;
+}

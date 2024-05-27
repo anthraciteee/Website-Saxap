@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загар</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #FCD9E4;">
+
+<!-- Кнопка Услуги -->
+<div id="servicesContainer" class="services-container">
+    <ul id="servicesList" class="services-list">
+        <li><a href="depilation.html">ДЕПИЛЯЦИЯ</a> </li>
+        <li><a href="cosmetology.html">КОСМЕТОЛОГИЯ</a> </li>
+        <li><a href="manicure.html">МАНИКЮР/ПЕДИКЮР</a> </li>
+        <li><a href="eyebrows.html">БРОВИ/РЕСНИЦЫ</a>   </li>
+        <li><a href="make-up.html">ВИЗАЖ</a>            </li>
+        <li><a href="stylist.html">ПАРИКМАХЕР</a>       </li>
+        <li><a href="massage.html">МАССАЖ</a>           </li>
+        <li><a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА</a> </li>
+        <li><a href="tan.html">ЗАГАР</a>                 </li>
+        <li><a href="master.html">МАСТЕР НА ДОМ</a>         </li>
+    </ul>
+</div>
+
+<!-- Верхняя шапка -->
+<header>
+<nav>
+    <a href="blog.html">Блог</a>
+    <a href="#" id="servicesButton">Услуги</a>
+            <a href="about.html">О нас</a>
+            <a href="price.html">Цены</a>
+            <a href="promotion.html">Акции</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="info-bar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png"></a>
+            <p class="logo-text">Выбор уверенных в себе</p>
+        </div>
+        <div class="contact-info">
+            <p class="infobartext">5 салонов в Хабаровске без<br> перерывов и выходных<br> с 9:00 до 21:00</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/"><img src="images\youtube.png" alt="YouTube"></a>
+                <a href="https://wa.me/79241129598"><img src="images\whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.instagram.com/iuliia_mua?igsh=MXdpNXZmcHFmMjFsZg=="><img src="images\instagram.png"></a>
+                <a href="https://t.me/iuliiaku"><img src="images/telegram.png"></a>
+            </div>
+            <p class="infobartext">+7(421)245-54-45</p>
+            <img src="images\location.png"><p class="infobartext"> Хабаровск, ул. Серышева 47.</p>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <div class="navigationpink">
+    <div class="navpink">
+        <a href="depilation.html">ДЕПИЛЯЦИЯ </a> 
+        <a href="cosmetology.html">КОСМЕТОЛОГИЯ </a> 
+        <a href="manicure.html">МАНИКЮР/ПЕДИКЮР </a>
+        <a href="eyebrows.html">БРОВИ/РЕСНИЦЫ </a>
+        <a href="make-up.html">ВИЗАЖ </a>
+        <a href="stylist.html">ПАРИКМАХЕР </a>
+        <a href="massage.html">МАССАЖ </a>
+        <a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА </a>
+        <a href="tan.html">ЗАГАР </a>
+        <a href="master.html">МАСТЕР НА ДОМ</a>
+    </div>
+    </div>
+
+<!-- Хлебные крошки -->
+<div class="MainNavigation">
+    <!-- Контейнер для хлебных крошек -->
+    <div class="breadcrumb" id="breadcrumb">
+      <!-- Здесь будет отображаться содержимое хлебных крошек -->
+  </div>
+</div>
+
+<!-- Основной контент страницы -->
+
+<div class="container">
+    <!-- Боковая навигация с вкладками -->
+    <div class="side-navigation">
+        <ul>
+                <li><a href="#" class="active" data-tab="tantips">Виды загара</a></li>            
+                <li><a href="#" data-tab="preparetan">Подготовка к загару</a></li>
+                <li><a href="#" data-tab="tancare">Советы по уходу за загаром</a></li>
+            </ul>
+        </ul>
+    </div>
+
+<!-- Контент страницы: Виды загара -->  
+<div class="content" id="tantips">
+    <div class="skins-description">
+        <h2>Услуги загара в Хабаровске</h2>
+            <p>Хотите иметь идеальный загар круглый год? Попробуйте наши услуги загара в салоне Saxap!<br>
+                 Мы предлагаем безопасные и эффективные процедуры загара, которые подарят вашей 
+                 коже<br> солнечный оттенок без вреда от ультрафиолетовых лучей. 
+                Запишитесь на процедуру прямо сейчас <br>и наслаждайтесь
+                 красивым загаром в любое время года!</p>
+            <button class="book-button" onclick="redirectToForm()">Записаться на процедуру</button>
+            <img src="images\tan.jpg" class="tan-image" alt="Transparent Image">
+        </div>
+        <p style="font-size: 30px; font-weight: bold;">Прайс-лист</p>
+            
+    <div class="pricelist">
+        <div>
+            <p style="font-weight: bold;">Услуга</p>
+        </div>
+        <div>
+            <p style="font-weight: bold;">Цена (стандарт /топ мастер)</p>
+        </div>
+    </div>
+    <!-- Контейнер для списка услуг и цен -->
+    <img src="images\price17.jpg" alt="Цены" style="width: 100%; height: auto;">
+</div>
+
+
+<!-- Контент страницы: Подготовка к загару -->  
+<div class="content" id="preparetan" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Подготовка к загару</p>
+
+    <p style="font-size: 20px;">Прежде чем приступить к процедуре загара, важно правильно подготовить кожу, чтобы обеспечить ровный и стойкий результат.
+         За день до сеанса рекомендуется провести скрабирование кожи, чтобы удалить мертвые клетки и обеспечить равномерное распределение загара. 
+         <br><br>Также важно увлажнить кожу с помощью качественного крема или лосьона, чтобы предотвратить сухость и шелушение.
+          В день загара не наносите на кожу парфюм, дезодорант или любые другие косметические средства, которые могут содержать спирт или масла, так как они могут повлиять на равномерность загара. 
+          <br><br>Обязательно наденьте свободную, темную одежду, которая не будет сдавливать кожу и не испачкается. 
+          Не забудьте взять с собой шапочку или заколку, чтобы убрать волосы, если это необходимо. 
+          Следуя этим простым рекомендациям, вы сможете добиться наилучшего результата и наслаждаться красивым, ровным загаром.</p>
+    
+</div>
+
+
+<!-- Контент страницы: Советы по уходу за загаром -->  
+<div class="content" id="tancare" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Советы по уходу за загаром</p>
+
+<p style="font-size: 20px;">1. Увлажняйте кожу ежедневно, чтобы сохранить загар дольше и предотвратить шелушение. Используйте качественные увлажняющие кремы и лосьоны.</p>
+
+<p style="font-size: 20px;">2. Пейте достаточное количество воды. Гидратация изнутри помогает поддерживать здоровье кожи и дольше сохранять загар.</p>
+
+<p style="font-size: 20px;">3. Избегайте длительных горячих ванн и душей, так как они могут ускорить вымывание загара. Предпочитайте прохладную или теплую воду.</p>
+
+<p style="font-size: 20px;">4. Используйте мягкий скраб для тела раз в неделю, чтобы удалить мертвые клетки кожи и сохранить загар свежим и ровным.</p>
+
+<p style="font-size: 20px;">5. Носите свободную, дышащую одежду, чтобы избежать трения и выцветания загара на коже.</p>
+
+<p style="font-size: 20px;">6. Защищайте кожу от длительного воздействия прямых солнечных лучей. Используйте солнцезащитные средства с SPF, чтобы предотвратить ожоги и сохранить загар.</p>
+
+<p style="font-size: 20px;">7. Избегайте использования продуктов, содержащих спирт или агрессивные химические вещества, которые могут сушить кожу и ускорять вымывание загара.</p>
+
+<p style="font-size: 20px;">8. Поддерживайте здоровое питание, богатое витаминами и антиоксидантами, чтобы улучшить состояние кожи и продлить стойкость загара.</p>
+    
+</div>
+
+
+
+
+
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

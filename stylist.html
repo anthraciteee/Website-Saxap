@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парикмахер</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #FCD9E4;">
+
+<!-- Кнопка Услуги -->
+<div id="servicesContainer" class="services-container">
+    <ul id="servicesList" class="services-list">
+        <li><a href="depilation.html">ДЕПИЛЯЦИЯ</a> </li>
+        <li><a href="cosmetology.html">КОСМЕТОЛОГИЯ</a> </li>
+        <li><a href="manicure.html">МАНИКЮР/ПЕДИКЮР</a> </li>
+        <li><a href="eyebrows.html">БРОВИ/РЕСНИЦЫ</a>   </li>
+        <li><a href="make-up.html">ВИЗАЖ</a>            </li>
+        <li><a href="stylist.html">ПАРИКМАХЕР</a>       </li>
+        <li><a href="massage.html">МАССАЖ</a>           </li>
+        <li><a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА</a> </li>
+        <li><a href="tan.html">ЗАГАР</a>                 </li>
+        <li><a href="master.html">МАСТЕР НА ДОМ</a>         </li>
+    </ul>
+</div>
+
+<!-- Верхняя шапка -->
+<header>
+<nav>
+    <a href="blog.html">Блог</a>
+    <a href="#" id="servicesButton">Услуги</a>
+            <a href="about.html">О нас</a>
+            <a href="price.html">Цены</a>
+            <a href="promotion.html">Акции</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="info-bar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png"></a>
+            <p class="logo-text">Выбор уверенных в себе</p>
+        </div>
+        <div class="contact-info">
+            <p class="infobartext">5 салонов в Хабаровске без<br> перерывов и выходных<br> с 9:00 до 21:00</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/"><img src="images\youtube.png" alt="YouTube"></a>
+                <a href="https://wa.me/79241129598"><img src="images\whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.instagram.com/iuliia_mua?igsh=MXdpNXZmcHFmMjFsZg=="><img src="images\instagram.png"></a>
+                <a href="https://t.me/iuliiaku"><img src="images/telegram.png"></a>
+            </div>
+            <p class="infobartext">+7(421)245-54-45</p>
+            <img src="images\location.png"><p class="infobartext"> Хабаровск, ул. Серышева 47.</p>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <div class="navigationpink">
+    <div class="navpink">
+        <a href="depilation.html">ДЕПИЛЯЦИЯ </a> 
+        <a href="cosmetology.html">КОСМЕТОЛОГИЯ </a> 
+        <a href="manicure.html">МАНИКЮР/ПЕДИКЮР </a>
+        <a href="eyebrows.html">БРОВИ/РЕСНИЦЫ </a>
+        <a href="make-up.html">ВИЗАЖ </a>
+        <a href="stylist.html">ПАРИКМАХЕР </a>
+        <a href="massage.html">МАССАЖ </a>
+        <a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА </a>
+        <a href="tan.html">ЗАГАР </a>
+        <a href="master.html">МАСТЕР НА ДОМ</a>
+    </div>
+    </div>
+
+<!-- Хлебные крошки -->
+<div class="MainNavigation">
+    <!-- Контейнер для хлебных крошек -->
+    <div class="breadcrumb" id="breadcrumb">
+      <!-- Здесь будет отображаться содержимое хлебных крошек -->
+  </div>
+</div>    
+
+
+<!-- Основной контент страницы -->
+
+
+<div class="container">
+    <!-- Боковая навигация с вкладками -->
+    <div class="side-navigation">
+        <ul>
+                <li><a href="#" class="active" data-tab="hairtips">Стрижки и укладки</a></li>            
+                <li><a href="#" data-tab="coloring">Окрашивание и мелирование</a></li>
+                <li><a href="#" data-tab="haircare">Уход за волосами и советы стилиста</a></li>
+            </ul>
+        </ul>
+    </div>
+
+    
+<!-- Контент страницы: Стрижки и укладки -->  
+<div class="content" id="hairtips">
+    <div class="skins-description">
+        <h2>Парикмахерские услуги в Хабаровске</h2>
+            <p>Доверьте свой образ профессионалам! Наши мастера помогут вам 
+                создать <br>идеальную стрижку и укладку,
+                 которая подчеркнет вашу индивидуальность. <br>
+                Запишитесь к нашему мастеру прямо сейчас!</p>
+            <button class="book-button" onclick="redirectToForm()">Записаться к мастеру</button>
+            <img src="images\hair.png" class="hair-image" alt="Transparent Image">
+        </div>
+        <p style="font-size: 30px; font-weight: bold;">Прайс-лист</p>
+            
+    <div class="pricelist">
+        <div>
+            <p style="font-weight: bold;">Услуга</p>
+        </div>
+        <div>
+            <p style="font-weight: bold;">Цена (стандарт /топ мастер)</p>
+        </div>
+    </div>
+    <!-- Контейнер для списка услуг и цен -->
+    <img src="images\price14.jpg" alt="Цены" style="width: 100%; height: auto;">
+</div>
+
+
+<!-- Контент страницы: Окрашивание и мелирование -->  
+<div class="content" id="coloring" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Окрашивание и мелирование</p>
+
+    <p style="font-size: 20px;">Окрашивание и мелирование волос – это отличный способ изменить свой образ и подчеркнуть свою индивидуальность. Современные техники окрашивания позволяют добиться разнообразных эффектов: от естественных мягких переходов до ярких и контрастных цветовых сочетаний.</p>
+    
+    <p style="font-size: 20px;">Перед тем как приступить к окрашиванию, важно обратиться к опытному парикмахеру, который поможет выбрать подходящий цвет и технику окрашивания, учитывая особенности вашего типа волос и желаемый результат. Профессионалы салона Saxap предложат вам самые актуальные и модные тенденции в мире окрашивания.</p>
+    
+    <p style="font-size: 20px;">Мелирование – это техника окрашивания, при которой нити волос тонируются разными оттенками, создавая игру света и тени. Это отличный способ придать волосам объем и текстуру, а также добавить яркие акценты и подчеркнуть красоту вашей прически.</p>
+    
+    <p style="font-size: 20px;">Помимо внешней красоты, важно также обеспечить здоровье и ухоженность волос. После окрашивания или мелирования не забывайте о правильном уходе за волосами. Используйте специальные шампуни и кондиционеры для окрашенных волос, которые помогут сохранить цвет и увлажнить волосы. Также регулярно делайте увлажняющие и питательные маски, чтобы восстановить структуру волос и предотвратить их сухость и ломкость.</p>
+    
+    <p style="font-size: 20px;">Доверьте заботу о вашей прическе профессионалам салона Saxap, и вы будете в восторге от результатов!</p>
+    
+</div>
+
+
+<!-- Контент страницы: Уход за волосами и советы стилиста -->  
+<div class="content" id="haircare" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Уход за волосами и советы стилиста</p>
+
+<div style="display: flex; align-items: center;">
+    <img src="images\master5.png" alt="Марина парикмахер-универсал" style="width: 500px; margin-right: 20px;">
+    <div style="font-size: 20px;">
+        <p><b>Совет от нашего стилиста-универсала Марины!</b></p>
+        <p>1. Регулярно делайте горячие маски для волос с маслом розмарина. Они укрепляют волосы и стимулируют их рост.</p>
+        <p>2. Избегайте сушки волос феном на максимальной температуре. Предпочтительнее использовать холодный или тёплый режим.</p>
+        <p>3. Перед укладкой волос используйте термозащитный спрей, чтобы защитить волосы от вредного воздействия тепла.</p>
+        <p>4. Регулярно обрезайте секущиеся концы волос, чтобы предотвратить их ломкость и сохранить здоровый вид прически.</p>
+        <p>5. Не забывайте о регулярном увлажнении волос. Используйте кондиционеры и маски для восстановления и питания волос.</p>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

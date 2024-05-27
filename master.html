@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мастер на дом</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #FCD9E4;">
+
+<!-- Кнопка Услуги -->
+<div id="servicesContainer" class="services-container">
+    <ul id="servicesList" class="services-list">
+        <li><a href="depilation.html">ДЕПИЛЯЦИЯ</a> </li>
+        <li><a href="cosmetology.html">КОСМЕТОЛОГИЯ</a> </li>
+        <li><a href="manicure.html">МАНИКЮР/ПЕДИКЮР</a> </li>
+        <li><a href="eyebrows.html">БРОВИ/РЕСНИЦЫ</a>   </li>
+        <li><a href="make-up.html">ВИЗАЖ</a>            </li>
+        <li><a href="stylist.html">ПАРИКМАХЕР</a>       </li>
+        <li><a href="massage.html">МАССАЖ</a>           </li>
+        <li><a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА</a> </li>
+        <li><a href="tan.html">ЗАГАР</a>                 </li>
+        <li><a href="master.html">МАСТЕР НА ДОМ</a>         </li>
+    </ul>
+</div>
+
+<!-- Верхняя шапка -->
+<header>
+<nav>
+    <a href="blog.html">Блог</a>
+    <a href="#" id="servicesButton">Услуги</a>
+            <a href="about.html">О нас</a>
+            <a href="price.html">Цены</a>
+            <a href="promotion.html">Акции</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="info-bar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png"></a>
+            <p class="logo-text">Выбор уверенных в себе</p>
+        </div>
+        <div class="contact-info">
+            <p class="infobartext">5 салонов в Хабаровске без<br> перерывов и выходных<br> с 9:00 до 21:00</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/"><img src="images\youtube.png" alt="YouTube"></a>
+                <a href="https://wa.me/79241129598"><img src="images\whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.instagram.com/iuliia_mua?igsh=MXdpNXZmcHFmMjFsZg=="><img src="images\instagram.png"></a>
+                <a href="https://t.me/iuliiaku"><img src="images/telegram.png"></a>
+            </div>
+            <p class="infobartext">+7(421)245-54-45</p>
+            <img src="images\location.png"><p class="infobartext"> Хабаровск, ул. Серышева 47.</p>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <div class="navigationpink">
+    <div class="navpink">
+        <a href="depilation.html">ДЕПИЛЯЦИЯ </a> 
+        <a href="cosmetology.html">КОСМЕТОЛОГИЯ </a> 
+        <a href="manicure.html">МАНИКЮР/ПЕДИКЮР </a>
+        <a href="eyebrows.html">БРОВИ/РЕСНИЦЫ </a>
+        <a href="make-up.html">ВИЗАЖ </a>
+        <a href="stylist.html">ПАРИКМАХЕР </a>
+        <a href="massage.html">МАССАЖ </a>
+        <a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА </a>
+        <a href="tan.html">ЗАГАР </a>
+        <a href="master.html">МАСТЕР НА ДОМ</a>
+    </div>
+    </div>
+
+
+<!-- Хлебные крошки -->
+<div class="MainNavigation">
+    <!-- Контейнер для хлебных крошек -->
+    <div class="breadcrumb" id="breadcrumb">
+      <!-- Здесь будет отображаться содержимое хлебных крошек -->
+  </div>
+</div>    
+
+<!-- Основной контент страницы -->
+
+<div class="container">
+    <!-- Боковая навигация с вкладками -->
+    <div class="side-navigation">
+        <ul>
+                <li><a href="#" class="active" data-tab="mastertips">Услуги мастера на дом</a></li>            
+                <li><a href="#" data-tab="masteradvantage">Преимущества услуги "Мастер на дом"</a></li>
+                <li><a href="#" data-tab="preparemaster">Как подготовиться к визиту мастера</a></li>
+            </ul>
+        </ul>
+    </div>
+
+<!-- Контент страницы: Услуги мастера на дом -->  
+<div class="content" id="mastertips">
+    <div class="waxing-description">
+        <h2>Новая услуга нашего салона - выезд мастера на дом</h2>
+        <p> Насладитесь комфортом и удобством, не покидая пределов своего дома.<br> 
+            Запишитесь прямо сейчас и наслаждайтесь качественными услугами прямо у себя!</p>
+            <button class="book-button" onclick="redirectToForm()">Записаться</button>
+            <img src="images\homemaster.png" class="master-image" alt="Transparent Image">
+        </div>
+        <p style="font-size: 30px; font-weight: bold;">Прайс-лист</p>
+            
+    <div class="pricelist">
+        <div>
+            <p style="font-weight: bold;">Услуга</p>
+        </div>
+        <div>
+            <p style="font-weight: bold;">Цена (стандарт /топ мастер)</p>
+        </div>
+    </div>
+    <!-- Контейнер для списка услуг и цен -->
+    <img src="images\price18.jpg" alt="Цены" style="width: 100%; height: auto;">
+    <p style="font-size: 30px; font-weight: bold;">Шугаринг на дому</p>
+<p style="font-size: 20px;">Наши бьюти-Феи сделают вашу кожу гладкой в любое удобное для вас время! Мастера работают сахарной пастой, можно сделать любые зоны: бикини (классическое или глубокое), ножки до колена или полностью, ручки, область лица, дополнительные зоны на ваш выбор.</p>
+<p style="font-size: 30px; font-weight: bold;">Архитектура бровей на дому</p>
+<p style="font-size: 20px;">В данную услугу входит коррекция бровей с помощью воска или пинцета, а также окрашивание краской или хной. Мастер учтет все ваши пожелания, и вы получите бровки мечты в комфортных домашних условиях.</p>
+<p style="font-size: 30px; font-weight: bold;">Ламинирование бровей и ресниц на дому</p>
+<p style="font-size: 20px;">В услугу входит архитектура бровей, а также нанесение составов для долговременной укладки бровей и подкручивания ресничек. Также наши мастера могут сделать велвет бровей или ресниц, а также оказать дополнительные услуги по уходу.</p>
+<p style="font-size: 30px; font-weight: bold;">Наращивание ресниц на дому</p>
+<p style="font-size: 20px;">В услугу входит как классическое, так и объемное наращивание, предоставляется большой выбор длин и цветовой гаммы ресничек.</p>
+<p style="font-size: 30px; font-weight: bold;">Маникюр и педикюр на дому</p>
+<p style="font-size: 20px;">У вас дома наши мастерицы готовы предоставить услуги по обработке ногтевой пластины и кутикулы, покрытие гель-лаком или обычным лаком, выравнивание ногтевой пластины, различный дизайн. Также в качестве дополнительных услуг могут быть уходовые процедуры для рук и стоп.</p>
+<p style="font-size: 30px; font-weight: bold;">Макияж на дому</p>
+<p style="font-size: 20px;">Наши мастера предоставляют услуги по визажу и макияжу, в услуги входят повседневный макияж или вечерний образ любой сложности.</p>
+<p style="font-size: 20px;">Все материалы стерильные и одноразовые, используются исключительно проверенные и качественные продукты. Наши девочки – мастерцы всегда приедут в оговоренное время, вы сможете сделать красоту и уход для вас удобным в любое время.</p>
+</div>
+
+
+<!-- Контент страницы: Преимущества услуги "Мастер на дом" -->  
+<div class="content" id="masteradvantage" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Преимущества услуги "Мастер на дом"</p>
+
+    <p style="font-size: 30px; font-weight: bold;">Удобство и комфорт</p>
+    <p style="font-size: 20px;">Получайте профессиональные услуги в уютной атмосфере вашего дома. Вам не нужно тратить время на дорогу до салона, достаточно просто назначить удобное для вас время и место.</p>
+    
+    <p style="font-size: 30px; font-weight: bold;">Индивидуальный подход</p>
+    <p style="font-size: 20px;">Наши мастерицы уделяют максимум внимания каждому клиенту, учитывая все ваши пожелания и потребности. Это позволяет достичь идеального результата, который удовлетворит именно вас.</p>
+    
+    <p style="font-size: 30px; font-weight: bold;">Экономия времени</p>
+    <p style="font-size: 20px;">Больше не нужно планировать день вокруг визита в салон. Вы можете получить все необходимые процедуры, оставаясь дома и занимаясь своими делами параллельно.</p>
+    
+    <p style="font-size: 30px; font-weight: bold;">Высокий уровень сервиса</p>
+    <p style="font-size: 20px;">Наши мастерицы используют только профессиональные инструменты и материалы, обеспечивая качество салонного уровня у вас дома. Вы можете быть уверены в безопасности и эффективности всех процедур.</p>
+    
+    <p style="font-size: 30px; font-weight: bold;">Гибкий график</p>
+    <p style="font-size: 20px;">Услуга "Мастер на дом" позволяет выбрать удобное для вас время визита, даже если у вас нестандартный график работы или занятость. Мы подстроимся под ваше расписание.</p>
+    
+    <p style="font-size: 30px; font-weight: bold;">Приватность и спокойствие</p>
+    <p style="font-size: 20px;">Наслаждайтесь процедурой в приватной обстановке вашего дома, избегая посторонних взглядов и шума салона. Это особенно актуально для тех, кто ценит личное пространство и спокойствие.</p>
+    
+    <p style="font-size: 30px; font-weight: bold;">Безопасность и гигиена</p>
+    <p style="font-size: 20px;">Наши мастерицы строго соблюдают все санитарные нормы и правила, обеспечивая максимальную безопасность и чистоту во время проведения процедур на дому.</p>
+    
+</div>
+
+
+<!-- Контент страницы: Как подготовиться к визиту мастера -->  
+<div class="content" id="preparemaster" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Как подготовиться к визиту мастера</p>
+
+    <ul>
+        <li>
+            <p style="font-size: 20px;">Создайте удобное рабочее место</p>
+            <p style="font-size: 15px;">Подготовьте достаточно освещённое и просторное место для работы мастера. Убедитесь, что есть доступ к розеткам и удобная мебель, чтобы мастер мог разместить свои инструменты и материалы.</p>
+        </li>
+        <li>
+            <p style="font-size: 20px;">Обеспечьте чистоту и порядок</p>
+            <p style="font-size: 15px;">Убедитесь, что в месте проведения процедур чисто и опрятно. Это создаст комфортные условия для работы мастера и для вашего отдыха.</p>
+        </li>
+        <li>
+            <p style="font-size: 20px;">Подготовьте необходимые материалы</p>
+            <p style="font-size: 15px;">Проверьте, что у вас есть все необходимые материалы и инструменты, если это требуется для услуги. Мастер может привезти с собой всё необходимое, но если у вас есть особые предпочтения, заранее обговорите это.</p>
+        </li>
+        <li>
+            <p style="font-size: 20px;">Уделите внимание гигиене</p>
+            <p style="font-size: 15px;">Примите душ перед визитом мастера, особенно если планируются процедуры, связанные с кожей и волосами. Это обеспечит чистоту и комфорт в процессе работы.</p>
+        </li>
+        <li>
+            <p style="font-size: 20px;">Создайте комфортную атмосферу</p>
+            <p style="font-size: 15px;">Позаботьтесь о том, чтобы в помещении было комфортно. Регулируйте температуру, подготовьте спокойную музыку или любые другие элементы, которые помогут вам расслабиться во время процедуры.</p>
+        </li>
+        <li>
+            <p style="font-size: 20px;">Обсудите все детали заранее</p>
+            <p style="font-size: 15px;">Перед визитом мастера обсудите все детали процедуры: какие услуги вы хотите получить, сколько времени это займет, и какие материалы будут использованы. Это поможет избежать недоразумений и обеспечит лучший результат.</p>
+        </li>
+        <li>
+            <p style="font-size: 20px;">Запланируйте время на отдых</p>
+            <p style="font-size: 15px;">После процедуры важно дать себе время на отдых и восстановление. Избегайте сразу после визита планировать важные встречи или мероприятия, чтобы насладиться результатом и сохранить его на дольше.</p>
+        </li>
+    </ul>
+    
+    
+</div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

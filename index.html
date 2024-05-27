@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saxap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #FCD9E4;">
+
+<!-- Кнопка Услуги -->
+    <div id="servicesContainer" class="services-container">
+        <ul id="servicesList" class="services-list">
+            <li><a href="depilation.html">ДЕПИЛЯЦИЯ</a> </li>
+            <li><a href="cosmetology.html">КОСМЕТОЛОГИЯ</a> </li>
+            <li><a href="manicure.html">МАНИКЮР/ПЕДИКЮР</a> </li>
+            <li><a href="eyebrows.html">БРОВИ/РЕСНИЦЫ</a>   </li>
+            <li><a href="make-up.html">ВИЗАЖ</a>            </li>
+            <li><a href="stylist.html">ПАРИКМАХЕР</a>       </li>
+            <li><a href="massage.html">МАССАЖ</a>           </li>
+            <li><a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА</a> </li>
+            <li><a href="tan.html">ЗАГАР</a>                 </li>
+            <li><a href="master.html">МАСТЕР НА ДОМ</a>         </li>
+        </ul>
+    </div>
+
+<!-- Верхняя шапка -->
+<header>
+    <nav>
+        <a href="blog.html">Блог</a>
+        <a href="#" id="servicesButton">Услуги</a>
+        <a href="about.html">О нас</a>
+        <a href="price.html">Цены</a>
+        <a href="promotion.html">Акции</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+</header>
+
+<div class="info-bar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png">
+        <p class="logo-text">Выбор уверенных в себе</p>
+    </div>
+    <div class="contact-info">
+        <p class="infobartext">5 салонов в Хабаровске без<br> перерывов и выходных<br> с 9:00 до 21:00</p>
+        <div class="social-icons">
+                <a href="https://www.youtube.com/"><img src="images\youtube.png" alt="YouTube"></a>
+                <a href="https://wa.me/79241129598"><img src="images\whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.instagram.com/iuliia_mua?igsh=MXdpNXZmcHFmMjFsZg=="><img src="images\instagram.png"></a>
+                <a href="https://t.me/iuliiaku"><img src="images/telegram.png"></a>
+        </div>
+        <p class="infobartext">+7(421)245-54-45</p>
+        <img src="images\location.png"><p class="infobartext"> Хабаровск, ул. Серышева 47.</p>
+    </div>
+</div>
+
+
+
+<!-- Основной контент страницы -->
+<div class="pink-rectangle">
+        <p class="navigation">
+            <a href="depilation.html">ДЕПИЛЯЦИЯ |</a> 
+            <a href="cosmetology.html">КОСМЕТОЛОГИЯ |</a> 
+            <a href="manicure.html">МАНИКЮР/ПЕДИКЮР |</a>
+            <a href="eyebrows.html">БРОВИ/РЕСНИЦЫ |</a>
+            <a href="make-up.html">ВИЗАЖ |</a>
+            <a href="stylist.html">ПАРИКМАХЕР |</a>
+            <a href="massage.html">МАССАЖ |</a>
+            <a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА |</a>
+            <a href="tan.html">ЗАГАР |</a>
+            <a href="master.html">МАСТЕР НА ДОМ</a>
+            </p>
+    <img src="images\girl.png" class="top-right-image" alt="Transparent Image">
+    <h3 class="monthly-offer-text">АКЦИЯ МЕСЯЦА</h3>
+    <div>
+        <h1 class="discount-text">К МАСТЕРУ<br>СКИДКА</h1>
+        <h1 class="pr-15">-15%</h1>
+    </div>
+    <button class="details-button" onclick="showDetails()">УЗНАТЬ ПОДРОБНОСТИ</button>
+    <button class="details-buttononline" onclick="redirectToForm()">ОНЛАЙН ЗАПИСЬ</button>
+</div>
+
+<!-- Всплывающее окно с текстом (начально скрыто) -->
+<div id="detailsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeDetails()">&times;</span>
+        <p>Дарим скидку 15% на первое посещение к любому мастеру!</p>
+        <p>Салон красоты Сахар предлагает широкий спектор услуг.</p>
+        <p>Не упустите возможность воспользоваться выгодным предложение!</p>
+        <button class="online-booking-button" onclick="redirectToForm()">Онлайн запись</button>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

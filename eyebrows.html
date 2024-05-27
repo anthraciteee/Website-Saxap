@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Брови/Ресницы</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #FCD9E4;">
+
+<!-- Кнопка Услуги -->
+<div id="servicesContainer" class="services-container">
+    <ul id="servicesList" class="services-list">
+        <li><a href="depilation.html">ДЕПИЛЯЦИЯ</a> </li>
+        <li><a href="cosmetology.html">КОСМЕТОЛОГИЯ</a> </li>
+        <li><a href="manicure.html">МАНИКЮР/ПЕДИКЮР</a> </li>
+        <li><a href="eyebrows.html">БРОВИ/РЕСНИЦЫ</a>   </li>
+        <li><a href="make-up.html">ВИЗАЖ</a>            </li>
+        <li><a href="stylist.html">ПАРИКМАХЕР</a>       </li>
+        <li><a href="massage.html">МАССАЖ</a>           </li>
+        <li><a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА</a> </li>
+        <li><a href="tan.html">ЗАГАР</a>                 </li>
+        <li><a href="master.html">МАСТЕР НА ДОМ</a>         </li>
+    </ul>
+</div>
+
+<!-- Верхняя шапка -->
+<header>
+<nav>
+    <a href="blog.html">Блог</a>
+    <a href="#" id="servicesButton">Услуги</a>
+            <a href="about.html">О нас</a>
+            <a href="price.html">Цены</a>
+            <a href="promotion.html">Акции</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="info-bar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png"></a>
+            <p class="logo-text">Выбор уверенных в себе</p>
+        </div>
+        <div class="contact-info">
+            <p class="infobartext">5 салонов в Хабаровске без<br> перерывов и выходных<br> с 9:00 до 21:00</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/"><img src="images\youtube.png" alt="YouTube"></a>
+                <a href="https://wa.me/79241129598"><img src="images\whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.instagram.com/iuliia_mua?igsh=MXdpNXZmcHFmMjFsZg=="><img src="images\instagram.png"></a>
+                <a href="https://t.me/iuliiaku"><img src="images/telegram.png"></a>
+            </div>
+            <p class="infobartext">+7(421)245-54-45</p>
+            <img src="images\location.png"><p class="infobartext"> Хабаровск, ул. Серышева 47.</p>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <div class="navigationpink">
+    <div class="navpink">
+        <a href="depilation.html">ДЕПИЛЯЦИЯ </a> 
+        <a href="cosmetology.html">КОСМЕТОЛОГИЯ </a> 
+        <a href="manicure.html">МАНИКЮР/ПЕДИКЮР </a>
+        <a href="eyebrows.html">БРОВИ/РЕСНИЦЫ </a>
+        <a href="make-up.html">ВИЗАЖ </a>
+        <a href="stylist.html">ПАРИКМАХЕР </a>
+        <a href="massage.html">МАССАЖ </a>
+        <a href="bodycorrection.html">КОРРЕКЦИЯ ТЕЛА </a>
+        <a href="tan.html">ЗАГАР </a>
+        <a href="master.html">МАСТЕР НА ДОМ</a>
+    </div>
+    </div>
+
+
+<!-- Хлебные крошки -->
+<div class="MainNavigation">
+    <!-- Контейнер для хлебных крошек -->
+    <div class="breadcrumb" id="breadcrumb">
+      <!-- Здесь будет отображаться содержимое хлебных крошек -->
+  </div>
+</div>    
+
+
+<!-- Основной контент страницы -->
+
+
+<div class="container">
+    <!-- Боковая навигация с вкладками -->
+    <div class="side-navigation">
+        <ul>
+                <li><a href="#" class="active" data-tab="eyebrowstips">Услуги для бровей и ресниц</a></li>            
+                <li><a href="#" data-tab="browscare">Уход и стайлинг</a></li>
+                <li><a href="#" data-tab="eyebrowstrends">Тренды в макияже бровей и ресниц</a></li>
+            </ul>
+        </ul>
+    </div>
+
+    
+
+<!-- Контент страницы: Услуги для бровей и ресниц -->  
+<div class="content" id="eyebrowstips">
+    <div class="skins-description">
+        <h2>Брови и ресницы в Хабаровске</h2>
+            <p>Подчеркните свою красоту с нашими услугами по бровям и ресницам! <br>
+                Наши мастера помогут создать идеальный образ для вашего взгляда. <br>
+                Запишитесь прямо сейчас!</p>
+            <button class="book-button" onclick="redirectToForm()">Записаться на Брови/Ресницы</button>
+            <img src="images\eyebrow.jpg" class="eyebrow-image" alt="Transparent Image">
+        </div>
+        <p style="font-size: 30px; font-weight: bold;">Прайс-лист</p>
+            
+    <div class="pricelist">
+        <div>
+            <p style="font-weight: bold;">Услуга</p>
+        </div>
+        <div>
+            <p style="font-weight: bold;">Цена (стандарт /топ мастер)</p>
+        </div>
+    </div>
+    <!-- Контейнер для списка услуг и цен -->
+    <img src="images\price13.jpg" alt="Цены" style="width: 100%; height: auto;">
+</div>
+
+
+<!-- Контент страницы: Уход и стайлинг -->  
+<div class="content" id="browscare" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Уход и стайлинг</p>
+
+    <div style="display: flex; align-items: center;">
+        <img src="images/master6.png" alt="Брови и ресницы" style="width: 500px; margin-right: 20px;">
+        <div style="font-size: 20px;">
+            <p><b>Совет от Анастасии визажиста-бровиста:</b></p>
+            <p>Для здоровья и красоты бровей и ресниц важно не только их стайлинг, но и правильный уход. Используйте специальные гели и сыворотки для роста и укрепления бровей и ресниц, которые питают волосяные фолликулы и улучшают их структуру. Также регулярно делайте маски для бровей и ресниц на основе натуральных масел и витаминов, чтобы поддерживать их здоровье и красоту.</p>
+            <p>При стайлинге бровей используйте гелевые и восковые текстуры, которые фиксируют форму и придают бровям выразительность и аккуратность. Ресницы можно укладывать при помощи специальной щёточки или использовать натуральные масла, чтобы укрепить и питать их, делая ресницы густыми и длинными.</p>
+            <p>Не забывайте также о правильном снятии макияжа с бровей и ресниц. Для этого используйте мягкие средства для снятия макияжа, чтобы избежать повреждения волосков и кожи вокруг глаз.</p>
+        </div>
+    </div>
+    
+</div>
+
+
+<!-- Контент страницы: Тренды в макияже бровей и ресниц -->  
+<div class="content" id="eyebrowstrends" style="display: none;">
+    <p style="font-size: 30px; font-weight: bold;">Тренды в макияже бровей и ресниц</p>
+
+<p style="font-size: 20px;">Макияж бровей и ресниц – это неотъемлемая часть образа, которая может существенно изменить внешний вид и подчеркнуть индивидуальность. С каждым сезоном на подиумах появляются новые тренды, отражающие современные модные тенденции и направления в макияже.</p>
+
+<p style="font-size: 20px;">Один из актуальных трендов – это придание естественности и непринуждённости макияжу бровей и ресниц. Теперь в моде тонкие, аккуратные брови без излишних акцентов, а также ресницы с легким приподнятым эффектом, создающим взгляд настоящей дамы.</p>
+
+<p style="font-size: 20px;">Ещё один важный тренд – это акцент на форме и архитектуре. Брови и ресницы становятся объектом скрупулезной работы и внимания, их форма, длина и густота выделяются и подчеркиваются, что придаёт лицу выразительность и индивидуальность.</p>
+
+<p style="font-size: 20px;">В последнее время также можно наблюдать тенденцию к экспериментам с цветом. Яркие и насыщенные оттенки становятся востребованными как в макияже бровей, так и в макияже ресниц, создавая необычный и запоминающийся образ.</p>
+
+<p style="font-size: 20px;">Не останавливайтесь на достигнутом – экспериментируйте, подбирайте новые образы и открывайте для себя удивительный мир макияжа бровей и ресниц! А для более подробной информации и актуальных советов загляните в наш блог!</p>
+
+<button class="book-button">Блог</button>
+
+</div>
+    </div>
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
